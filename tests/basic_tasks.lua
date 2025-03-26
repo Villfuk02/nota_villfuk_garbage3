@@ -1,3 +1,5 @@
+print("BASIC TASKS:")
+
 -- Practice loops
 local N = 4
 
@@ -201,6 +203,8 @@ function table.filter(a, p)
 end
 
 PrintArray(FilterArray(A, function(x) return x % 3 ~= 0 end))
+print()
+print()
 
 function table.map(a, f)
     local mapped = {}

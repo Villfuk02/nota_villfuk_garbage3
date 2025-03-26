@@ -1,5 +1,7 @@
 require "tests.basic_tasks"
 
+print("ADVANCED TASKS")
+
 local elements = {
     [8695] = {
         air = false,
@@ -421,14 +423,14 @@ print()
 for i = 1, 4 do
     local total = 0
     for _, unit in pairs(elements) do
-        if unit.teamID == i then
-            if unit.ammo[1] and unit.ammo[1].defName == "rifle" then
+        if unit.teamID == i and unit.ammo[1] then
+            if unit.ammo[1].defName == "rifle" then
                 total = total + unit.ammo[1].count
-            elseif unit.ammo[1] and unit.ammo[1].defName == "machinegun" then
+            elseif unit.ammo[1].defName == "machinegun" then
                 total = total + unit.ammo[1].count
-            elseif unit.ammo[1] and unit.ammo[1].defName == "acid" then
+            elseif unit.ammo[1].defName == "acid" then
                 total = total + unit.ammo[1].count
-            elseif unit.ammo[1] and unit.ammo[1].defName == "HE" then
+            elseif unit.ammo[1].defName == "HE" then
                 total = total + unit.ammo[1].count * 10
             end
         end
