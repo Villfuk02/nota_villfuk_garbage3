@@ -1,6 +1,5 @@
 -- Practice loops
-print("Enter a number:")
-local N = io.read("*n")
+local N = 4
 
 -- Given number N, print all numbers up to N.
 function A(n)
@@ -101,7 +100,7 @@ print(GetNthOddNumber(A, N))
 print()
 
 -- Practice arrays vs. tables
-local T = { [true] = 1, b = { 1, 2, two = "two" }, c = false, [4] = 4, ["the number five"] = 5, [{ six = "six" }] = "VI" }
+local T = { [true] = 1, b = { 1, 2, two = "two" }, [{ [3] = "three" }] = false, [4] = 4, ["the number five"] = 5, [{ 6, 7, 8, 9 }] = "VI" }
 
 -- Given an array, print every element and its index.
 -- Given a table, print every element and its key.
@@ -149,27 +148,30 @@ print()
 
 -- Practice tables in basic applications
 -- Create a function that can print any boolean, number, string, array or table; arrays and tables may themselves contain arrays and tables.
-function Format(e)
+function Format(e, level)
+    level = level or 0
     local t = type(e)
-    if t == "table" and #e == CountTable(e) then
-        t = "array"
+    if t == "string" then
+        return "\"" .. e .. "\""
     end
-    local fmt = {
-        boolean = function(e) return e and "true" or "false" end,
-        number = function(e) return tostring(e) end,
-        string = function(e) return "\"" .. e .. "\"" end,
-        array = function(e) return "[" .. table.concat(e, ", ") .. "]" end,
-        table = function(e)
-            local stringified = {}
-            for key, value in pairs(e) do
-                stringified[#stringified + 1] = Format(key) .. ": " .. Format(value)
+    if t == "table" then
+        local stringified = {}
+        if #e == CountTable(e) then
+            for _, value in ipairs(e) do
+                stringified[#stringified + 1] = Format(value, level + 1)
             end
-            return "{\n" .. table.concat(stringified, "\n") .. "\n}"
+            return "[" .. table.concat(stringified, ", ") .. "]"
         end
-    }
-    return "(" .. t .. ")" .. (fmt[t] or tostring)(e)
+        for key, value in pairs(e) do
+            stringified[#stringified + 1] = string.rep("  ", level + 1) .. Format(key, level + 1) .. " = " .. Format(value, level + 1)
+        end
+        return "{\n" .. table.concat(stringified, "\n") .. "\n" .. string.rep("  ", level) .. "}"
+    end
+    return tostring(e)
 end
 
+print(Format(nil))
+print()
 print(Format(N))
 print()
 print(Format(A))
@@ -178,7 +180,7 @@ print(Format(T))
 print()
 
 -- Create a function that takes an array and a predicate, and returns an array of all elements that pass the predicate.
-function Filter(a, p)
+function FilterArray(a, p)
     local filtered = {}
     for _, x in ipairs(a) do
         if p(x) then
@@ -188,4 +190,22 @@ function Filter(a, p)
     return filtered
 end
 
-PrintArray(Filter(A, function(x) return x % 3 ~= 0 end))
+function table.filter(a, p)
+    local filtered = {}
+    for k, v in pairs(a) do
+        if p(v) then
+            filtered[k] = v
+        end
+    end
+    return filtered
+end
+
+PrintArray(FilterArray(A, function(x) return x % 3 ~= 0 end))
+
+function table.map(a, f)
+    local mapped = {}
+    for k, v in pairs(a) do
+        mapped[k] = f(v)
+    end
+    return mapped
+end
