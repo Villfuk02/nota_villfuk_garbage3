@@ -50,7 +50,8 @@ function Run(self, units, parameter)
 
     -- pick the spring command implementing the move
     local cmdID = fight and CMD.FIGHT or CMD.MOVE
-    direction = Vec3(direction.normX, direction.normY, direction.normZ)
+    direction = Vec3(direction.x, direction.y, direction.z)
+    direction:Normalize()
     local move = direction * distance
     local posX, posY, posZ = SpringGetUnitPosition(leader)
     local pos = Vec3(posX, posY, posZ)
