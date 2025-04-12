@@ -1,0 +1,52 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 108,
+			"width": 216
+		}
+	},
+	"inputs": [ {
+		"command": "BETS_UNIT",
+		"name": "leader"
+	} ],
+	"outputs": [],
+	"properties": {
+		"HnBDDusWQVtNf1zWlvMpjue2wIqdoHgE": {
+			"height": 152,
+			"title": "nota_villfuk_garbage3.sail",
+			"width": 292,
+			"x": 322,
+			"y": -8
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [],
+		"id": "HnBDDusWQVtNf1zWlvMpjue2wIqdoHgE",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "direction",
+			"value": "nota_villfuk_garbage3.Wind()"
+		}, {
+			"name": "leader",
+			"value": "leader"
+		}, {
+			"name": "distance",
+			"value": "80"
+		}, {
+			"name": "spacing",
+			"value": "40"
+		}, {
+			"name": "fight",
+			"value": "false"
+		}, {
+			"name": "scriptName",
+			"value": "nota_villfuk_garbage3.sail"
+		} ],
+		"scriptName": "nota_villfuk_garbage3.sail"
+	}
+}
