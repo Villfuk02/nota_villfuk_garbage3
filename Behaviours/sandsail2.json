@@ -6,47 +6,78 @@
 			"width": 216
 		}
 	},
-	"inputs": [ {
-		"command": "BETS_UNIT",
-		"name": "leader"
-	} ],
+	"inputs": [],
 	"outputs": [],
 	"properties": {
 		"HnBDDusWQVtNf1zWlvMpjue2wIqdoHgE": {
 			"height": 152,
 			"title": "nota_villfuk_garbage3.sail",
 			"width": 292,
-			"x": 322,
-			"y": -8
+			"x": 445,
+			"y": 22
+		},
+		"T4m4yKkhDAfCVylD1OYj7MoAFJp8c4be": {
+			"height": 98,
+			"title": "nota_villfuk_garbage3.findUnitByDef",
+			"width": 297,
+			"x": 464,
+			"y": -102
+		},
+		"kTaaKvtnmmHBMo4TeaP63KWoXH6Tro1q": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 255,
+			"y": 18
 		}
 	},
 	"roles": [ {
 		"categories": [],
-		"name": "Role 0"
+		"name": "leader"
 	} ],
 	"root": {
-		"children": [],
-		"id": "HnBDDusWQVtNf1zWlvMpjue2wIqdoHgE",
-		"nodeType": "luaCommand",
-		"parameters": [ {
-			"name": "direction",
-			"value": "nota_villfuk_garbage3.Wind()"
+		"children": [ {
+			"children": [],
+			"id": "T4m4yKkhDAfCVylD1OYj7MoAFJp8c4be",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "variable",
+				"value": "\"leader\""
+			}, {
+				"name": "defName",
+				"value": "\"armmav\""
+			}, {
+				"name": "scriptName",
+				"value": "nota_villfuk_garbage3.findUnitByDef"
+			} ],
+			"scriptName": "nota_villfuk_garbage3.findUnitByDef"
 		}, {
-			"name": "leader",
-			"value": "leader"
-		}, {
-			"name": "distance",
-			"value": "80"
-		}, {
-			"name": "spacing",
-			"value": "40"
-		}, {
-			"name": "fight",
-			"value": "false"
-		}, {
-			"name": "scriptName",
-			"value": "nota_villfuk_garbage3.sail"
+			"children": [],
+			"id": "HnBDDusWQVtNf1zWlvMpjue2wIqdoHgE",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "direction",
+				"value": "map.Wind()"
+			}, {
+				"name": "leader",
+				"value": "bb.leader"
+			}, {
+				"name": "distance",
+				"value": "80"
+			}, {
+				"name": "spacing",
+				"value": "40"
+			}, {
+				"name": "fight",
+				"value": "false"
+			}, {
+				"name": "scriptName",
+				"value": "nota_villfuk_garbage3.sail"
+			} ],
+			"scriptName": "nota_villfuk_garbage3.sail"
 		} ],
-		"scriptName": "nota_villfuk_garbage3.sail"
+		"id": "kTaaKvtnmmHBMo4TeaP63KWoXH6Tro1q",
+		"nodeType": "sequence",
+		"parameters": []
 	}
 }

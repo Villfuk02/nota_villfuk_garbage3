@@ -7,13 +7,13 @@ function getInfo()
                 name = "direction",
                 variableType = "expression",
                 componentType = "editBox",
-                defaultValue = "nota_villfuk_garbage3.Wind()",
+                defaultValue = "wind",
             },
             {
                 name = "leader",
                 variableType = "expression",
                 componentType = "editBox",
-                defaultValue = "leader",
+                defaultValue = "bb.leader",
             },
             {
                 name = "distance",
@@ -43,14 +43,57 @@ local SpringGiveOrderToUnit = Spring.GiveOrderToUnit
 
 function Run(self, units, parameter)
     local direction = parameter.direction -- Vector3
-    local leader = parameter.leader[1]    -- unitID
+    local leader = parameter.leader       -- unitID
     local distance = parameter.distance   -- number
     local spacing = parameter.spacing     -- number
     local fight = parameter.fight         -- boolean
 
-    -- pick the spring command implementing the move
+    -- validation
+    if (direction == nil) then
+        Logger.warn("sail", "Direction is not defined.")
+        return FAILURE
+    end
+
+    if (direction.x == nil) then
+        direction.x = direction.dirX
+    end
+    if (direction.z == nil) then
+        direction.z = direction.dirZ
+    end
+    if (direction.x == nil or direction.z == nil) then
+        Logger.warn("sail", "Direction is not a valid vector.")
+        return FAILURE
+    end
+
+    if (type(leader) == "table") then
+        leader = leader[1]
+    end
+    if (leader == nil) then
+        Logger.warn("sail", "Leader is not defined.")
+        return FAILURE
+    end
+    -- test if leader is a valid unit, if not, we probably lost him and need to slelect another one
+    if (not Spring.ValidUnitID(leader)) then
+        return FAILURE
+    end
+
+    if (type(distance) ~= "number") then
+        Logger.warn("sail", "Distance is not a number.")
+        return FAILURE
+    end
+
+    if (type(spacing) ~= "number") then
+        Logger.warn("sail", "Spacing is not a number.")
+        return FAILURE
+    end
+
+    if (type(fight) ~= "boolean") then
+        Logger.warn("sail", "Fight is not a boolean.")
+        return FAILURE
+    end
+
     local cmdID = fight and CMD.FIGHT or CMD.MOVE
-    direction = Vec3(direction.x, direction.y, direction.z)
+    direction = Vec3(direction.x, 0, direction.z)
     direction:Normalize()
     local move = direction * distance
     local posX, posY, posZ = SpringGetUnitPosition(leader)
