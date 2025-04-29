@@ -18,7 +18,6 @@ local function SquareDistance(a, b)
     return (a.x - b.x) * (a.x - b.x) + (a.z - b.z) * (a.z - b.z) + ((a.y or 0) - (b.y or 0)) * ((a.y or 0) - (b.y or 0))
 end
 
--- @description Make clusters from points
 -- @argument target [vector] the target point to sort by distance from
 -- @argument points [array of vectors] source points
 return function(target, points)

@@ -37,7 +37,7 @@ function Run(self, units, parameter)
         return FAILURE
     end
     if (type(fight) ~= "boolean") then
-        Logger.warn("sail", "Fight is not a boolean.")
+        Logger.warn("moveUnits", "Fight is not a boolean.")
         return FAILURE
     end
 

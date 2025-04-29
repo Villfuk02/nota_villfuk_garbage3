@@ -14,7 +14,6 @@ function getInfo()
     }
 end
 
--- @description Find high spots in the map
 -- @argument spacing [number] spacing between sample points
 -- @argument height [number] height threshold for high spots
 return function(spacing, height)
