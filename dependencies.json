@@ -2,5 +2,7 @@
     "nota_common": "0.3.x",
     "core": "0.8.x",
     "map": "0.5.x",
-    "formation": "0.3.x"
+    "formation": "0.3.x",
+    "nota_kahlan_ttdr": "1.0",
+    "nota_mestek_labs": "4.1"
 }

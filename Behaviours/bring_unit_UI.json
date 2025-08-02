@@ -1,0 +1,47 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 128,
+			"width": 225
+		}
+	},
+	"inputs": [ {
+		"command": "BETS_UNIT",
+		"name": "transporter"
+	}, {
+		"command": "BETS_UNIT",
+		"name": "passenger"
+	} ],
+	"outputs": [],
+	"properties": {
+		"H3TXCF1ZQQkx1AepAfhF8ohVTAroktIO": {
+			"height": 151,
+			"title": "reference",
+			"width": 284,
+			"x": 271,
+			"y": -11
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [],
+		"id": "H3TXCF1ZQQkx1AepAfhF8ohVTAroktIO",
+		"nodeType": "reference",
+		"parameters": [ {
+			"name": "behaviourName",
+			"value": "nota_villfuk_garbage3.bring_unit"
+		} ],
+		"referenceInputs": [ {
+			"name": "transporter",
+			"value": "transporter[1]"
+		}, {
+			"name": "passenger",
+			"value": "passenger[1]"
+		} ],
+		"referenceOutputs": []
+	}
+}
