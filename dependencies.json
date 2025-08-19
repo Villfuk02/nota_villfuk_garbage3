@@ -4,5 +4,6 @@
     "map": "0.5.x",
     "formation": "0.3.x",
     "nota_kahlan_ttdr": "1.0",
-    "nota_mestek_labs": "4.1"
+    "nota_mestek_labs": "4.1",
+    "nota_krejci_exam": "0.3.2"
 }
