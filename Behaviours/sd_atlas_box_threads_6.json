@@ -1,0 +1,291 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 168,
+			"width": 227
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "buildingDist"
+	}, {
+		"command": "Variable",
+		"name": "frontlineDist"
+	}, {
+		"command": "Variable",
+		"name": "maxOffset"
+	}, {
+		"command": "Variable",
+		"name": "startIndex"
+	} ],
+	"outputs": [],
+	"properties": {
+		"0J2ze5L55DuHptwU1K8k5cUom47OH9I6": {
+			"height": 235,
+			"title": "reference",
+			"width": 354,
+			"x": 792,
+			"y": 90
+		},
+		"0NLMB14GYWstK7dCSkN9RUdij6MJiros": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 580,
+			"y": 829
+		},
+		"692IX15Nl3iQH54732jGQsdLaWPtw8nN": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 582,
+			"y": 485
+		},
+		"In8dnTq2GH2so1igPKxCawMtaOLp6hOi": {
+			"height": 235,
+			"title": "reference",
+			"width": 354,
+			"x": 788,
+			"y": 278
+		},
+		"My7BHI3vFDQ0WMhyIPvsF20hhq7au5hn": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 306,
+			"y": 41
+		},
+		"NP02yErj9eGa8OUWkRtQYDMlWYOOOTE1": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 581,
+			"y": -67
+		},
+		"TWNAxbOiVWbPzx21Szk7bdExeGrfG0fg": {
+			"height": 235,
+			"title": "reference",
+			"width": 354,
+			"x": 784,
+			"y": 800
+		},
+		"WgS4ByTa6RYxyY7qEJ8SDcieCUKleQxx": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 588,
+			"y": 119
+		},
+		"YktOTquEOQdjbixgsdjdtGY4bkFUltmF": {
+			"height": 235,
+			"title": "reference",
+			"width": 354,
+			"x": 785,
+			"y": -96
+		},
+		"Z14qo18HXYdSgToO90DmhOZPHV1XkyO4": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 578,
+			"y": 659
+		},
+		"ktA1EDJFrXRwGAK2O9aBzkNmYcO5rGag": {
+			"height": 235,
+			"title": "reference",
+			"width": 354,
+			"x": 782,
+			"y": 630
+		},
+		"l1nxL3zyFSCCtcVuWx4k4ArcGAGIHDfz": {
+			"height": 235,
+			"title": "reference",
+			"width": 354,
+			"x": 786,
+			"y": 456
+		},
+		"uOJ403G7GlQDGS2wSZP1cmoeReHPPo3h": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 584,
+			"y": 307
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "YktOTquEOQdjbixgsdjdtGY4bkFUltmF",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_atlas_box_thread"
+				} ],
+				"referenceInputs": [ {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				}, {
+					"name": "index",
+					"value": "startIndex"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "NP02yErj9eGa8OUWkRtQYDMlWYOOOTE1",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "0J2ze5L55DuHptwU1K8k5cUom47OH9I6",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_atlas_box_thread"
+				} ],
+				"referenceInputs": [ {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				}, {
+					"name": "index",
+					"value": "startIndex+1"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "WgS4ByTa6RYxyY7qEJ8SDcieCUKleQxx",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "In8dnTq2GH2so1igPKxCawMtaOLp6hOi",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_atlas_box_thread"
+				} ],
+				"referenceInputs": [ {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				}, {
+					"name": "index",
+					"value": "startIndex+2"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "uOJ403G7GlQDGS2wSZP1cmoeReHPPo3h",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "l1nxL3zyFSCCtcVuWx4k4ArcGAGIHDfz",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_atlas_box_thread"
+				} ],
+				"referenceInputs": [ {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				}, {
+					"name": "index",
+					"value": "startIndex+3"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "692IX15Nl3iQH54732jGQsdLaWPtw8nN",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "ktA1EDJFrXRwGAK2O9aBzkNmYcO5rGag",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_atlas_box_thread"
+				} ],
+				"referenceInputs": [ {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				}, {
+					"name": "index",
+					"value": "startIndex+4"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "Z14qo18HXYdSgToO90DmhOZPHV1XkyO4",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "TWNAxbOiVWbPzx21Szk7bdExeGrfG0fg",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_atlas_box_thread"
+				} ],
+				"referenceInputs": [ {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				}, {
+					"name": "index",
+					"value": "startIndex+5"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "0NLMB14GYWstK7dCSkN9RUdij6MJiros",
+			"nodeType": "repeat",
+			"parameters": []
+		} ],
+		"id": "My7BHI3vFDQ0WMhyIPvsF20hhq7au5hn",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
+	}
+}

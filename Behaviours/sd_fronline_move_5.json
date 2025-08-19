@@ -1,0 +1,253 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 188,
+			"width": 227
+		}
+	},
+	"inputs": [ {
+		"command": "BETS_UNIT",
+		"name": "unitTable"
+	}, {
+		"command": "Variable",
+		"name": "startIdx"
+	}, {
+		"command": "Variable",
+		"name": "buildingDist"
+	}, {
+		"command": "Variable",
+		"name": "frontlineDist"
+	}, {
+		"command": "Variable",
+		"name": "maxOffset"
+	} ],
+	"outputs": [],
+	"properties": {
+		"1Xo4E8ik4NWydqzf6GnIHC7PJIQfVKyn": {
+			"height": 235,
+			"title": "reference",
+			"width": 338,
+			"x": 810,
+			"y": -77
+		},
+		"AesjssFssZ7jfF4hFUOaIuE5t4ZIPXJJ": {
+			"height": 235,
+			"title": "reference",
+			"width": 338,
+			"x": 747,
+			"y": 281
+		},
+		"Y2DPQ4SACQlCYmzbWfPnU6Nq7TWtYf5Z": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 597,
+			"y": -95
+		},
+		"aCddFdq2KAI9zVYbYiXz92fbWIwi5JU4": {
+			"height": 235,
+			"title": "reference",
+			"width": 338,
+			"x": 792,
+			"y": -259
+		},
+		"exhdhI6DZouHNrRrJz0g80dQGNrn8oRx": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 555,
+			"y": 349
+		},
+		"fr44kH37fAZ8qCxD1BLP58o3bTvF8zqR": {
+			"height": 235,
+			"title": "reference",
+			"width": 338,
+			"x": 749,
+			"y": 101
+		},
+		"fvRDAkRYW3axsMR2SJ6FYnKHYaDwp5w7": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 558,
+			"y": 48
+		},
+		"gSLMYevmTT6r58J4Q4CiBrZJ2SbSwsnG": {
+			"height": 235,
+			"title": "reference",
+			"width": 338,
+			"x": 751,
+			"y": 463
+		},
+		"gvk0LJBGFLDSftvDTzBATc8WBT5j2yC0": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 600,
+			"y": -186
+		},
+		"rFQZX2MkBR3wpcf1Soji85Uq6iVjd3Xx": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 563,
+			"y": 178
+		},
+		"rRHvPO2uozMYk1vaInBjsyUuuJAJ6lPu": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 307,
+			"y": 36
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "aCddFdq2KAI9zVYbYiXz92fbWIwi5JU4",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_frontline_move"
+				} ],
+				"referenceInputs": [ {
+					"name": "unitID",
+					"value": "unitTable[startIdx]"
+				}, {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "gvk0LJBGFLDSftvDTzBATc8WBT5j2yC0",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "1Xo4E8ik4NWydqzf6GnIHC7PJIQfVKyn",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_frontline_move"
+				} ],
+				"referenceInputs": [ {
+					"name": "unitID",
+					"value": "unitTable[startIdx+1]"
+				}, {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "Y2DPQ4SACQlCYmzbWfPnU6Nq7TWtYf5Z",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "fr44kH37fAZ8qCxD1BLP58o3bTvF8zqR",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_frontline_move"
+				} ],
+				"referenceInputs": [ {
+					"name": "unitID",
+					"value": "unitTable[startIdx+2]"
+				}, {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "fvRDAkRYW3axsMR2SJ6FYnKHYaDwp5w7",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "AesjssFssZ7jfF4hFUOaIuE5t4ZIPXJJ",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_frontline_move"
+				} ],
+				"referenceInputs": [ {
+					"name": "unitID",
+					"value": "unitTable[startIdx+3]"
+				}, {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "rFQZX2MkBR3wpcf1Soji85Uq6iVjd3Xx",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "gSLMYevmTT6r58J4Q4CiBrZJ2SbSwsnG",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_frontline_move"
+				} ],
+				"referenceInputs": [ {
+					"name": "unitID",
+					"value": "unitTable[startIdx+4]"
+				}, {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "exhdhI6DZouHNrRrJz0g80dQGNrn8oRx",
+			"nodeType": "repeat",
+			"parameters": []
+		} ],
+		"id": "rRHvPO2uozMYk1vaInBjsyUuuJAJ6lPu",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
+	}
+}

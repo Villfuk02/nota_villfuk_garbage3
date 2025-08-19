@@ -1,0 +1,224 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 188,
+			"width": 227
+		}
+	},
+	"inputs": [ {
+		"command": "BETS_UNIT",
+		"name": "unitTable"
+	}, {
+		"command": "Variable",
+		"name": "startIdx"
+	}, {
+		"command": "Variable",
+		"name": "buildingDist"
+	}, {
+		"command": "Variable",
+		"name": "frontlineDist"
+	}, {
+		"command": "Variable",
+		"name": "maxOffset"
+	} ],
+	"outputs": [],
+	"properties": {
+		"1Xo4E8ik4NWydqzf6GnIHC7PJIQfVKyn": {
+			"height": 256,
+			"title": "reference",
+			"width": 354,
+			"x": 810,
+			"y": -77
+		},
+		"AesjssFssZ7jfF4hFUOaIuE5t4ZIPXJJ": {
+			"height": 256,
+			"title": "reference",
+			"width": 354,
+			"x": 799,
+			"y": 393
+		},
+		"Y2DPQ4SACQlCYmzbWfPnU6Nq7TWtYf5Z": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 597,
+			"y": -95
+		},
+		"aCddFdq2KAI9zVYbYiXz92fbWIwi5JU4": {
+			"height": 256,
+			"title": "reference",
+			"width": 354,
+			"x": 806,
+			"y": -313
+		},
+		"fr44kH37fAZ8qCxD1BLP58o3bTvF8zqR": {
+			"height": 256,
+			"title": "reference",
+			"width": 354,
+			"x": 797,
+			"y": 151
+		},
+		"fvRDAkRYW3axsMR2SJ6FYnKHYaDwp5w7": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 558,
+			"y": 48
+		},
+		"gvk0LJBGFLDSftvDTzBATc8WBT5j2yC0": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 600,
+			"y": -186
+		},
+		"rFQZX2MkBR3wpcf1Soji85Uq6iVjd3Xx": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 557,
+			"y": 273
+		},
+		"rRHvPO2uozMYk1vaInBjsyUuuJAJ6lPu": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 307,
+			"y": 36
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "aCddFdq2KAI9zVYbYiXz92fbWIwi5JU4",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_fronline_move_5"
+				} ],
+				"referenceInputs": [ {
+					"name": "unitTable",
+					"value": "unitTable"
+				}, {
+					"name": "startIdx",
+					"value": "startIdx"
+				}, {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "gvk0LJBGFLDSftvDTzBATc8WBT5j2yC0",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "1Xo4E8ik4NWydqzf6GnIHC7PJIQfVKyn",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_fronline_move_5"
+				} ],
+				"referenceInputs": [ {
+					"name": "unitTable",
+					"value": "unitTable"
+				}, {
+					"name": "startIdx",
+					"value": "startIdx+5"
+				}, {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "Y2DPQ4SACQlCYmzbWfPnU6Nq7TWtYf5Z",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "fr44kH37fAZ8qCxD1BLP58o3bTvF8zqR",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_fronline_move_5"
+				} ],
+				"referenceInputs": [ {
+					"name": "unitTable",
+					"value": "unitTable"
+				}, {
+					"name": "startIdx",
+					"value": "startIdx+10"
+				}, {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "fvRDAkRYW3axsMR2SJ6FYnKHYaDwp5w7",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "AesjssFssZ7jfF4hFUOaIuE5t4ZIPXJJ",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_villfuk_garbage3.sd_fronline_move_5"
+				} ],
+				"referenceInputs": [ {
+					"name": "unitTable",
+					"value": "unitTable"
+				}, {
+					"name": "startIdx",
+					"value": "startIdx+15"
+				}, {
+					"name": "buildingDist",
+					"value": "buildingDist"
+				}, {
+					"name": "frontlineDist",
+					"value": "frontlineDist"
+				}, {
+					"name": "maxOffset",
+					"value": "maxOffset"
+				} ],
+				"referenceOutputs": []
+			} ],
+			"id": "rFQZX2MkBR3wpcf1Soji85Uq6iVjd3Xx",
+			"nodeType": "repeat",
+			"parameters": []
+		} ],
+		"id": "rRHvPO2uozMYk1vaInBjsyUuuJAJ6lPu",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
+	}
+}

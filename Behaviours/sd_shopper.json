@@ -1,0 +1,418 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"1FQpHpg1BsivlWLSKmWSARwvc2ofQrsB": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 208,
+			"x": 452,
+			"y": 217
+		},
+		"3IyCRYkWklwIymzKb8lts42Qsv9XrwyC": {
+			"height": 72,
+			"title": "nota_mestek_labs.buyUnit",
+			"width": 249,
+			"x": 701,
+			"y": -165
+		},
+		"A3GwWSf0f4fcWw87s0SqE41onml4SLY5": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 1176,
+			"y": 504
+		},
+		"Aut2hSoDTxXdE6RBE2MPnMtbCrq5Y8cB": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 327,
+			"x": 491,
+			"y": 647
+		},
+		"CAk5oGVtub2VQPJ00BlhRulz6MFh7JHj": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 286,
+			"x": 491,
+			"y": 543
+		},
+		"E7LXvqG65pdqpAkQzn6HE4WqxChqGsif": {
+			"height": 72,
+			"title": "nota_mestek_labs.buyUnit",
+			"width": 249,
+			"x": 494,
+			"y": 746
+		},
+		"Ek63L9w2bLvGTEvPXxCxdzvobyruECWR": {
+			"height": 72,
+			"title": "nota_mestek_labs.buyUnit",
+			"width": 249,
+			"x": 853,
+			"y": 544
+		},
+		"HA0PxYhfMbJYEBArRQbLr2amjvvVcUlf": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 204,
+			"x": 439,
+			"y": -167
+		},
+		"MlIaic6O9VqxuDVg70c0YCy2ovg0kFux": {
+			"height": 72,
+			"title": "nota_mestek_labs.buyUnit",
+			"width": 249,
+			"x": 709,
+			"y": 319
+		},
+		"RokiclltNLfvB9cxUMxNT7Ve22D5qImb": {
+			"height": 72,
+			"title": "nota_mestek_labs.buyUnit",
+			"width": 249,
+			"x": 699,
+			"y": -75
+		},
+		"SoPD8QBtvMj8EMURSZgJqTT62e1Z79O5": {
+			"height": 92,
+			"title": "nota_mestek_labs.upgradeLine",
+			"width": 281,
+			"x": 1146,
+			"y": 405
+		},
+		"byvRAr8DR3glXakhUwTAdqlVU3PbJvj3": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 903,
+			"y": 429
+		},
+		"cf4CqA8dP8beK3uVGBCY0TOpNMWZfzTZ": {
+			"height": 70,
+			"title": "selector",
+			"width": 131,
+			"x": 244,
+			"y": 2
+		},
+		"g0imGIlC6NppA6kQD4psGThrsXpE4dyT": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 208,
+			"x": 443,
+			"y": 38
+		},
+		"hExlK2ldyivPSM3ekFJQy14sbiPZNrSY": {
+			"height": 72,
+			"title": "nota_mestek_labs.buyUnit",
+			"width": 249,
+			"x": 716,
+			"y": 127
+		},
+		"mRGpodc5S1OVtxouwfBgBKY7ieMgu1qC": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 208,
+			"x": 449,
+			"y": 124
+		},
+		"rIMsxcdBn29Le5EiE5rCl05aX27E1sru": {
+			"height": 72,
+			"title": "nota_mestek_labs.buyUnit",
+			"width": 249,
+			"x": 706,
+			"y": 45
+		},
+		"rYCg4h56MLF38bKPYCs3NFaXD6IEmG0N": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 208,
+			"x": 459,
+			"y": 316
+		},
+		"sEwQt5tYSuIa504r2DzfaZ85WhP4ePpn": {
+			"height": 72,
+			"title": "nota_mestek_labs.buyUnit",
+			"width": 249,
+			"x": 858,
+			"y": 653
+		},
+		"w83qi8JJpWpaOhAriEH6h8al2DlBFtg6": {
+			"height": 72,
+			"title": "nota_mestek_labs.buyUnit",
+			"width": 249,
+			"x": 715,
+			"y": 232
+		},
+		"yeQ4P99l9bH0MRpXj8VNZxdUeJ675heT": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 204,
+			"x": 447,
+			"y": -79
+		},
+		"zpRDcBrytKMXG6rWCiXVzsm6lo9UErgU": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 379,
+			"x": 464,
+			"y": 419
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "3IyCRYkWklwIymzKb8lts42Qsv9XrwyC",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitName",
+					"value": "'armseer'"
+				}, {
+					"name": "scriptName",
+					"value": "nota_mestek_labs.buyUnit"
+				} ],
+				"scriptName": "nota_mestek_labs.buyUnit"
+			} ],
+			"id": "HA0PxYhfMbJYEBArRQbLr2amjvvVcUlf",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "#bb.myUnits.seer < 0"
+			}, {
+				"name": "repeat",
+				"value": "true"
+			} ]
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "RokiclltNLfvB9cxUMxNT7Ve22D5qImb",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitName",
+					"value": "'armspy'"
+				}, {
+					"name": "scriptName",
+					"value": "nota_mestek_labs.buyUnit"
+				} ],
+				"scriptName": "nota_mestek_labs.buyUnit"
+			} ],
+			"id": "yeQ4P99l9bH0MRpXj8VNZxdUeJ675heT",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "#bb.myUnits.spy < 2"
+			}, {
+				"name": "repeat",
+				"value": "true"
+			} ]
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "rIMsxcdBn29Le5EiE5rCl05aX27E1sru",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitName",
+					"value": "'armbox'"
+				}, {
+					"name": "scriptName",
+					"value": "nota_mestek_labs.buyUnit"
+				} ],
+				"scriptName": "nota_mestek_labs.buyUnit"
+			} ],
+			"id": "g0imGIlC6NppA6kQD4psGThrsXpE4dyT",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "#bb.myUnits.box < 2"
+			}, {
+				"name": "repeat",
+				"value": "true"
+			} ]
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "hExlK2ldyivPSM3ekFJQy14sbiPZNrSY",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitName",
+					"value": "'armatlas'"
+				}, {
+					"name": "scriptName",
+					"value": "nota_mestek_labs.buyUnit"
+				} ],
+				"scriptName": "nota_mestek_labs.buyUnit"
+			} ],
+			"id": "mRGpodc5S1OVtxouwfBgBKY7ieMgu1qC",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "#bb.myUnits.atlas < 2"
+			}, {
+				"name": "repeat",
+				"value": "true"
+			} ]
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "w83qi8JJpWpaOhAriEH6h8al2DlBFtg6",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitName",
+					"value": "'armmav'"
+				}, {
+					"name": "scriptName",
+					"value": "nota_mestek_labs.buyUnit"
+				} ],
+				"scriptName": "nota_mestek_labs.buyUnit"
+			} ],
+			"id": "1FQpHpg1BsivlWLSKmWSARwvc2ofQrsB",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "#bb.myUnits.maverick < 3"
+			}, {
+				"name": "repeat",
+				"value": "true"
+			} ]
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "MlIaic6O9VqxuDVg70c0YCy2ovg0kFux",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitName",
+					"value": "'armfark'"
+				}, {
+					"name": "scriptName",
+					"value": "nota_mestek_labs.buyUnit"
+				} ],
+				"scriptName": "nota_mestek_labs.buyUnit"
+			} ],
+			"id": "rYCg4h56MLF38bKPYCs3NFaXD6IEmG0N",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "#bb.myUnits.fark < 2"
+			}, {
+				"name": "repeat",
+				"value": "true"
+			} ]
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "SoPD8QBtvMj8EMURSZgJqTT62e1Z79O5",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "lineName",
+						"value": "\"GoodMiddle\""
+					}, {
+						"name": "upgradeLevel",
+						"value": "1"
+					}, {
+						"name": "scriptName",
+						"value": "nota_mestek_labs.upgradeLine"
+					} ],
+					"scriptName": "nota_mestek_labs.upgradeLine"
+				}, {
+					"children": [],
+					"id": "A3GwWSf0f4fcWw87s0SqE41onml4SLY5",
+					"nodeType": "success",
+					"parameters": []
+				} ],
+				"id": "byvRAr8DR3glXakhUwTAdqlVU3PbJvj3",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "bb.metal >= 300"
+				}, {
+					"name": "repeat",
+					"value": "true"
+				} ]
+			} ],
+			"id": "zpRDcBrytKMXG6rWCiXVzsm6lo9UErgU",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "bb.info.battleLines.GoodMiddle.extraSpawnSize < 5"
+			}, {
+				"name": "repeat",
+				"value": "true"
+			} ]
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "Ek63L9w2bLvGTEvPXxCxdzvobyruECWR",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitName",
+					"value": "'armatlas'"
+				}, {
+					"name": "scriptName",
+					"value": "nota_mestek_labs.buyUnit"
+				} ],
+				"scriptName": "nota_mestek_labs.buyUnit"
+			} ],
+			"id": "CAk5oGVtub2VQPJ00BlhRulz6MFh7JHj",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "#bb.myUnits.atlas < #bb.myUnits.box"
+			}, {
+				"name": "repeat",
+				"value": "true"
+			} ]
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "sEwQt5tYSuIa504r2DzfaZ85WhP4ePpn",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitName",
+					"value": "'armmav'"
+				}, {
+					"name": "scriptName",
+					"value": "nota_mestek_labs.buyUnit"
+				} ],
+				"scriptName": "nota_mestek_labs.buyUnit"
+			} ],
+			"id": "Aut2hSoDTxXdE6RBE2MPnMtbCrq5Y8cB",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "#bb.myUnits.maverick < #bb.myUnits.box"
+			}, {
+				"name": "repeat",
+				"value": "true"
+			} ]
+		}, {
+			"children": [],
+			"id": "E7LXvqG65pdqpAkQzn6HE4WqxChqGsif",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "unitName",
+				"value": "'armbox'"
+			}, {
+				"name": "scriptName",
+				"value": "nota_mestek_labs.buyUnit"
+			} ],
+			"scriptName": "nota_mestek_labs.buyUnit"
+		} ],
+		"id": "cf4CqA8dP8beK3uVGBCY0TOpNMWZfzTZ",
+		"nodeType": "selector",
+		"parameters": [ {
+			"name": "active",
+			"value": "true"
+		} ]
+	}
+}

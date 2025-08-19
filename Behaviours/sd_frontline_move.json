@@ -1,0 +1,365 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 168,
+			"width": 227
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "unitID"
+	}, {
+		"command": "Variable",
+		"name": "buildingDist"
+	}, {
+		"command": "Variable",
+		"name": "frontlineDist"
+	}, {
+		"command": "Variable",
+		"name": "maxOffset"
+	} ],
+	"outputs": [],
+	"properties": {
+		"8lnjVPfVM0T0DFMdKLgpxBbbZfJhLSDo": {
+			"height": 94,
+			"title": "store",
+			"width": 680,
+			"x": 791,
+			"y": 130
+		},
+		"9H6VrjAcjWbojs7YbXPKBm1LhwRZxnYl": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 548,
+			"y": -433
+		},
+		"CAsXaOpvufzbWFU3XRQKst5E7nBIac4C": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 788,
+			"y": -49
+		},
+		"Ekdf6be2KFPDIjskZmdQIDqfUTHAD4oR": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 873,
+			"y": -662
+		},
+		"FgzushvHU9ygUHDStRijxHhUXpjavr9X": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 870,
+			"y": -438
+		},
+		"G30DOUPBC4fFlxAtGVnvdLPvmcEk3KZW": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 1032,
+			"y": -36
+		},
+		"MYTBwYstyFBgA93xbzfIhJhjlNxkGuuF": {
+			"height": 72,
+			"title": "waitUntil",
+			"width": 430,
+			"x": 839,
+			"y": -366
+		},
+		"Py0cbpfgJZ9AUwYUgn6fQwFtDWtmkQAi": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 1403,
+			"y": 235
+		},
+		"TOox1z7OBJS1LTnbMQF9tFEplagti8rl": {
+			"height": 54,
+			"title": "failure",
+			"width": 131,
+			"x": 849,
+			"y": -281
+		},
+		"Tiz5xvY2k59zX0k4LsOxpZ7ni5QXhtEL": {
+			"height": 92,
+			"title": "store",
+			"width": 215,
+			"x": 785,
+			"y": 480
+		},
+		"WQzoOUXWzlmP5mpQWGcBqxOIw8QxdKpd": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 288,
+			"y": -49
+		},
+		"X2jFxkRunuYjHlqt24OeMfBpvCG8O4Rc": {
+			"height": 72,
+			"title": "waitUntil",
+			"width": 413,
+			"x": 842,
+			"y": -590
+		},
+		"aSchgPbzX4LH0DUzyXnzbKnuHyCBqhkM": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 554,
+			"y": -4
+		},
+		"dJjVc9n1UHlD0XTrXwjz5Su9YDS5teTD": {
+			"height": 94,
+			"title": "store",
+			"width": 539,
+			"x": 791,
+			"y": 39
+		},
+		"imF7t0Mv37Pttmk16Y3911efREYZqGtY": {
+			"height": 54,
+			"title": "failure",
+			"width": 131,
+			"x": 852,
+			"y": -505
+		},
+		"kZOgLxFzxk9UR3T0sa3iCuAUpcEdZg6z": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 551,
+			"y": -657
+		},
+		"kxN2M0OOJn3YsEoWmmBIQqVVtnBPZWiH": {
+			"height": 92,
+			"title": "store",
+			"width": 227,
+			"x": 789,
+			"y": -143
+		},
+		"pegSOqG2KrLegmoXWHxczhPpuBql1oIO": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 582,
+			"x": 785,
+			"y": 224
+		},
+		"sACkZCsHfzLTcdXafnNWqFUsWPht1uQA": {
+			"height": 94,
+			"title": "store",
+			"width": 442,
+			"x": 784,
+			"y": 394
+		},
+		"zKJdQ781PYpfCi48HtVcoIC4h5J8C927": {
+			"height": 94,
+			"title": "nota_mestek_labs.followPath",
+			"width": 554,
+			"x": 783,
+			"y": 582
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "Ekdf6be2KFPDIjskZmdQIDqfUTHAD4oR",
+				"nodeType": "wait",
+				"parameters": [ {
+					"name": "time",
+					"value": 2
+				} ]
+			}, {
+				"children": [],
+				"id": "X2jFxkRunuYjHlqt24OeMfBpvCG8O4Rc",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "condition",
+					"value": "info and info.midLanePos.travel > maxTravel"
+				}, {
+					"name": "scriptName",
+					"value": "waitUntil"
+				} ],
+				"scriptName": "waitUntil"
+			}, {
+				"children": [],
+				"id": "imF7t0Mv37Pttmk16Y3911efREYZqGtY",
+				"nodeType": "failure",
+				"parameters": []
+			} ],
+			"id": "kZOgLxFzxk9UR3T0sa3iCuAUpcEdZg6z",
+			"nodeType": "sequence",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "FgzushvHU9ygUHDStRijxHhUXpjavr9X",
+				"nodeType": "wait",
+				"parameters": [ {
+					"name": "time",
+					"value": 15
+				} ]
+			}, {
+				"children": [],
+				"id": "MYTBwYstyFBgA93xbzfIhJhjlNxkGuuF",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "condition",
+					"value": "info and info.midLanePos.travel < maxTravel - 300"
+				}, {
+					"name": "scriptName",
+					"value": "waitUntil"
+				} ],
+				"scriptName": "waitUntil"
+			}, {
+				"children": [],
+				"id": "TOox1z7OBJS1LTnbMQF9tFEplagti8rl",
+				"nodeType": "failure",
+				"parameters": []
+			} ],
+			"id": "9H6VrjAcjWbojs7YbXPKBm1LhwRZxnYl",
+			"nodeType": "sequence",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "kxN2M0OOJn3YsEoWmmBIQqVVtnBPZWiH",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "info"
+				}, {
+					"name": "value",
+					"value": "bb.midLane.my[unitID]"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "G30DOUPBC4fFlxAtGVnvdLPvmcEk3KZW",
+					"nodeType": "success",
+					"parameters": []
+				} ],
+				"id": "CAsXaOpvufzbWFU3XRQKst5E7nBIac4C",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "info"
+				}, {
+					"name": "repeat",
+					"value": "true"
+				} ]
+			}, {
+				"children": [],
+				"id": "dJjVc9n1UHlD0XTrXwjz5Su9YDS5teTD",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "targetOffset"
+				}, {
+					"name": "value",
+					"value": "(info.midLanePos.offset + maxOffset) % (2 * maxOffset) - maxOffset"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "8lnjVPfVM0T0DFMdKLgpxBbbZfJhLSDo",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "maxTravel"
+				}, {
+					"name": "value",
+					"value": "math.min(bb.midLane.buildingFrontline - buildingDist, bb.midLane.frontline - frontlineDist)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "Py0cbpfgJZ9AUwYUgn6fQwFtDWtmkQAi",
+					"nodeType": "success",
+					"parameters": []
+				} ],
+				"id": "pegSOqG2KrLegmoXWHxczhPpuBql1oIO",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "info.midLanePos.travel > maxTravel or info.midLanePos.travel < maxTravel - 100"
+				}, {
+					"name": "repeat",
+					"value": "true"
+				} ]
+			}, {
+				"children": [],
+				"id": "sACkZCsHfzLTcdXafnNWqFUsWPht1uQA",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "info.midLanePos.travel"
+				}, {
+					"name": "value",
+					"value": "math.min(maxTravel - 20, info.midLanePos.travel + 400)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "Tiz5xvY2k59zX0k4LsOxpZ7ni5QXhtEL",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "info.midLanePos.offset"
+				}, {
+					"name": "value",
+					"value": "targetOffset"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "zKJdQ781PYpfCi48HtVcoIC4h5J8C927",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitID",
+					"value": "unitID"
+				}, {
+					"name": "path",
+					"value": "{FromMidLanePos(info.midLanePos)}"
+				}, {
+					"name": "scriptName",
+					"value": "nota_mestek_labs.followPath"
+				} ],
+				"scriptName": "nota_mestek_labs.followPath"
+			} ],
+			"id": "aSchgPbzX4LH0DUzyXnzbKnuHyCBqhkM",
+			"nodeType": "sequence",
+			"parameters": []
+		} ],
+		"id": "WQzoOUXWzlmP5mpQWGcBqxOIw8QxdKpd",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "any-result"
+		} ]
+	}
+}

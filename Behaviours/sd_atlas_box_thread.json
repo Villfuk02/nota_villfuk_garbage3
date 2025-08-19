@@ -1,0 +1,477 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 188,
+			"width": 227
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "buildingDist"
+	}, {
+		"command": "Variable",
+		"name": "frontlineDist"
+	}, {
+		"command": "Variable",
+		"name": "maxOffset"
+	}, {
+		"command": "Variable",
+		"name": "index"
+	} ],
+	"outputs": [],
+	"properties": {
+		"1sbI2I0gptefxPyEOKL9rAOMuaeWUGXV": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 893,
+			"y": -67
+		},
+		"4ceKiaacQIiEwgdlRy8Fb7LbdOKTEZcj": {
+			"height": 92,
+			"title": "nota_mestek_labs.load",
+			"width": 228,
+			"x": 901,
+			"y": 734
+		},
+		"7mknPM7KKdPeNDDmFMry3YvWB2PFO111": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 1163,
+			"y": -52
+		},
+		"8iUuDzaVaJ0slb3g1p3FHWRGvA3VUj4r": {
+			"height": 94,
+			"title": "nota_mestek_labs.followPath",
+			"width": 317,
+			"x": 901,
+			"y": 1110
+		},
+		"9DSfWM901eggiC9j55naP9yJ38t9dq4y": {
+			"height": 72,
+			"title": "waitUntil",
+			"width": 393,
+			"x": 853,
+			"y": -576
+		},
+		"CJn1ieyCOc1bzbuhHVBKzb3Q3T4KFSto": {
+			"height": 94,
+			"title": "store",
+			"width": 423,
+			"x": 896,
+			"y": 549
+		},
+		"DtsN5pVh0Ct6iWh35b1kI7yz8pzUJvKR": {
+			"height": 54,
+			"title": "failure",
+			"width": 131,
+			"x": 863,
+			"y": -491
+		},
+		"FGX1W7is1lnjPELiDCzG2IAgTa5OqWwf": {
+			"height": 92,
+			"title": "store",
+			"width": 215,
+			"x": 897,
+			"y": 635
+		},
+		"FUF7huw0FasOx2QgRNtxIqWS133OIFOZ": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 562,
+			"y": -643
+		},
+		"HKS98I46XlIDfcKarq9hEHhTDqqGq6Ht": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 666,
+			"y": 151
+		},
+		"KTGkGoDlA9MM5QcLk0VKAiJxQ5fK5AOy": {
+			"height": 94,
+			"title": "store",
+			"width": 678,
+			"x": 903,
+			"y": 285
+		},
+		"KxA3DIf1YTDTgnFAdr14mmDVi0kH0Yld": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 1144,
+			"y": 119
+		},
+		"LWFYglKStaziCTOOYiFB3avNlTLONz8W": {
+			"height": 94,
+			"title": "store",
+			"width": 539,
+			"x": 903,
+			"y": 194
+		},
+		"RYgyLxsczADoulboX4VAZPPKooE6DdZy": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 1167,
+			"y": -231
+		},
+		"YZjuj7ojobntGeo8PQGgaffoaFS5HfCf": {
+			"height": 92,
+			"title": "store",
+			"width": 231,
+			"x": 903,
+			"y": -339
+		},
+		"eq4anXOkqQZavnnnaxoFD3vp5PNlJOCu": {
+			"height": 92,
+			"title": "store",
+			"width": 231,
+			"x": 899,
+			"y": -160
+		},
+		"fkfIPVKa37LSehGDnry9rhyfCD4YbPnC": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 884,
+			"y": -648
+		},
+		"hA6SfvAkaGD4hxd6bJ4utOvVwqkfQVJF": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 1521,
+			"y": 380
+		},
+		"kAquNeSqXrm6dwLIVvA3Bpgjnawssppd": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 900,
+			"y": 106
+		},
+		"komfWegOVIhno7VODcLKOYvUlXc0VOJn": {
+			"height": 92,
+			"title": "store",
+			"width": 266,
+			"x": 905,
+			"y": 1021
+		},
+		"qKyHiT21GKdaEp8pDio4Hs6rTE0LnjxY": {
+			"height": 94,
+			"title": "nota_krejci_exam.unloadUnit",
+			"width": 467,
+			"x": 912,
+			"y": 834
+		},
+		"sEisR9Gy429H5Z7KOrrkSeLj5rXhmA0c": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 274,
+			"y": 89
+		},
+		"uGLS9T3WnyypsxX5URTkCZs2CNejsuFZ": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 897,
+			"y": -246
+		},
+		"vPLbGOtdIHOuySllriEtJaFPESB5KJqk": {
+			"height": 92,
+			"title": "store",
+			"width": 227,
+			"x": 895,
+			"y": 16
+		},
+		"wenfKunmQvvRqiUnLjPEOvkmwEQx4IzJ": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 562,
+			"x": 899,
+			"y": 377
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "fkfIPVKa37LSehGDnry9rhyfCD4YbPnC",
+				"nodeType": "wait",
+				"parameters": [ {
+					"name": "time",
+					"value": 5
+				} ]
+			}, {
+				"children": [],
+				"id": "9DSfWM901eggiC9j55naP9yJ38t9dq4y",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "condition",
+					"value": "info and info.midLanePos.travel > maxTravel"
+				}, {
+					"name": "scriptName",
+					"value": "waitUntil"
+				} ],
+				"scriptName": "waitUntil"
+			}, {
+				"children": [],
+				"id": "DtsN5pVh0Ct6iWh35b1kI7yz8pzUJvKR",
+				"nodeType": "failure",
+				"parameters": []
+			} ],
+			"id": "FUF7huw0FasOx2QgRNtxIqWS133OIFOZ",
+			"nodeType": "sequence",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "YZjuj7ojobntGeo8PQGgaffoaFS5HfCf",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "atlas"
+				}, {
+					"name": "value",
+					"value": "bb.myUnits.atlas[index]"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "RYgyLxsczADoulboX4VAZPPKooE6DdZy",
+					"nodeType": "success",
+					"parameters": []
+				} ],
+				"id": "uGLS9T3WnyypsxX5URTkCZs2CNejsuFZ",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "atlas"
+				}, {
+					"name": "repeat",
+					"value": "true"
+				} ]
+			}, {
+				"children": [],
+				"id": "eq4anXOkqQZavnnnaxoFD3vp5PNlJOCu",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "box"
+				}, {
+					"name": "value",
+					"value": "bb.myUnits.box[index]"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "7mknPM7KKdPeNDDmFMry3YvWB2PFO111",
+					"nodeType": "success",
+					"parameters": []
+				} ],
+				"id": "1sbI2I0gptefxPyEOKL9rAOMuaeWUGXV",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "box"
+				}, {
+					"name": "repeat",
+					"value": "true"
+				} ]
+			}, {
+				"children": [],
+				"id": "vPLbGOtdIHOuySllriEtJaFPESB5KJqk",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "info"
+				}, {
+					"name": "value",
+					"value": "bb.midLane.my[box]"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "KxA3DIf1YTDTgnFAdr14mmDVi0kH0Yld",
+					"nodeType": "success",
+					"parameters": []
+				} ],
+				"id": "kAquNeSqXrm6dwLIVvA3Bpgjnawssppd",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "info"
+				}, {
+					"name": "repeat",
+					"value": "true"
+				} ]
+			}, {
+				"children": [],
+				"id": "LWFYglKStaziCTOOYiFB3avNlTLONz8W",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "targetOffset"
+				}, {
+					"name": "value",
+					"value": "(info.midLanePos.offset + maxOffset) % (2 * maxOffset) - maxOffset"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "KTGkGoDlA9MM5QcLk0VKAiJxQ5fK5AOy",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "maxTravel"
+				}, {
+					"name": "value",
+					"value": "math.min(bb.midLane.buildingFrontline - buildingDist, bb.midLane.frontline - frontlineDist)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "hA6SfvAkaGD4hxd6bJ4utOvVwqkfQVJF",
+					"nodeType": "success",
+					"parameters": []
+				} ],
+				"id": "wenfKunmQvvRqiUnLjPEOvkmwEQx4IzJ",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "info.midLanePos.travel > maxTravel or info.midLanePos.travel < maxTravel - 200"
+				}, {
+					"name": "repeat",
+					"value": "true"
+				} ]
+			}, {
+				"children": [],
+				"id": "CJn1ieyCOc1bzbuhHVBKzb3Q3T4KFSto",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "info.midLanePos.travel"
+				}, {
+					"name": "value",
+					"value": "maxTravel - 20"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "FGX1W7is1lnjPELiDCzG2IAgTa5OqWwf",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "info.midLanePos.offset"
+				}, {
+					"name": "value",
+					"value": "targetOffset"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "4ceKiaacQIiEwgdlRy8Fb7LbdOKTEZcj",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitToRescueID",
+					"value": "box"
+				}, {
+					"name": "unitTransportID",
+					"value": "atlas"
+				}, {
+					"name": "scriptName",
+					"value": "nota_mestek_labs.load"
+				} ],
+				"scriptName": "nota_mestek_labs.load"
+			}, {
+				"children": [],
+				"id": "qKyHiT21GKdaEp8pDio4Hs6rTE0LnjxY",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "transporter",
+					"value": "atlas"
+				}, {
+					"name": "area",
+					"value": "{center = FromMidLanePos(info.midLanePos), radius = 50}"
+				}, {
+					"name": "scriptName",
+					"value": "nota_krejci_exam.unloadUnit"
+				} ],
+				"scriptName": "nota_krejci_exam.unloadUnit"
+			}, {
+				"children": [],
+				"id": "komfWegOVIhno7VODcLKOYvUlXc0VOJn",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "info.midLanePos.travel"
+				}, {
+					"name": "value",
+					"value": "info.midLanePos.travel - 200"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "8iUuDzaVaJ0slb3g1p3FHWRGvA3VUj4r",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitID",
+					"value": "atlas"
+				}, {
+					"name": "path",
+					"value": "{FromMidLanePos(info.midLanePos)}"
+				}, {
+					"name": "scriptName",
+					"value": "nota_mestek_labs.followPath"
+				} ],
+				"scriptName": "nota_mestek_labs.followPath"
+			} ],
+			"id": "HKS98I46XlIDfcKarq9hEHhTDqqGq6Ht",
+			"nodeType": "sequence",
+			"parameters": []
+		} ],
+		"id": "sEisR9Gy429H5Z7KOrrkSeLj5rXhmA0c",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "any-result"
+		} ]
+	}
+}

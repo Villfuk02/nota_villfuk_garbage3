@@ -1,0 +1,61 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 108,
+			"width": 216
+		}
+	},
+	"inputs": [ {
+		"command": "BETS_UNIT",
+		"name": "seers"
+	} ],
+	"outputs": [],
+	"properties": {
+		"sQo2DEBQMA4kUiAdDJea1YmARxA7uRti": {
+			"height": 94,
+			"title": "nota_mestek_labs.followPath",
+			"width": 518,
+			"x": 525,
+			"y": 12
+		},
+		"wm3OcRkzBsxeyqmXnQUS49NPvVryGZhs": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 278,
+			"y": 7
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "sQo2DEBQMA4kUiAdDJea1YmARxA7uRti",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "unitID",
+				"value": "seers[1]"
+			}, {
+				"name": "path",
+				"value": "{Vec3(3450, 45, 6350), Vec3(3500, 45, 5000), Vec3(5600, 45, 2650)}"
+			}, {
+				"name": "scriptName",
+				"value": "nota_mestek_labs.followPath"
+			} ],
+			"scriptName": "nota_mestek_labs.followPath"
+		} ],
+		"id": "wm3OcRkzBsxeyqmXnQUS49NPvVryGZhs",
+		"nodeType": "luaCondition",
+		"parameters": [ {
+			"name": "expression",
+			"value": "#seers > 0"
+		}, {
+			"name": "repeat",
+			"value": "true"
+		} ]
+	}
+}
