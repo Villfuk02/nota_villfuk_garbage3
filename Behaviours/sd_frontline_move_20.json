@@ -100,7 +100,7 @@
 				"nodeType": "reference",
 				"parameters": [ {
 					"name": "behaviourName",
-					"value": "nota_villfuk_garbage3.sd_fronline_move_5"
+					"value": "nota_villfuk_garbage3.sd_frontline_move_5"
 				} ],
 				"referenceInputs": [ {
 					"name": "unitTable",
@@ -130,7 +130,7 @@
 				"nodeType": "reference",
 				"parameters": [ {
 					"name": "behaviourName",
-					"value": "nota_villfuk_garbage3.sd_fronline_move_5"
+					"value": "nota_villfuk_garbage3.sd_frontline_move_5"
 				} ],
 				"referenceInputs": [ {
 					"name": "unitTable",
@@ -160,7 +160,7 @@
 				"nodeType": "reference",
 				"parameters": [ {
 					"name": "behaviourName",
-					"value": "nota_villfuk_garbage3.sd_fronline_move_5"
+					"value": "nota_villfuk_garbage3.sd_frontline_move_5"
 				} ],
 				"referenceInputs": [ {
 					"name": "unitTable",
@@ -190,7 +190,7 @@
 				"nodeType": "reference",
 				"parameters": [ {
 					"name": "behaviourName",
-					"value": "nota_villfuk_garbage3.sd_fronline_move_5"
+					"value": "nota_villfuk_garbage3.sd_frontline_move_5"
 				} ],
 				"referenceInputs": [ {
 					"name": "unitTable",

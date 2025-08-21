@@ -12,6 +12,13 @@
 	} ],
 	"outputs": [],
 	"properties": {
+		"4vmCUQaZ4CtmhEPWNPI5zBw1pXzn9teo": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 529,
+			"y": 120
+		},
 		"sQo2DEBQMA4kUiAdDJea1YmARxA7uRti": {
 			"height": 94,
 			"title": "nota_mestek_labs.followPath",
@@ -47,6 +54,14 @@
 				"value": "nota_mestek_labs.followPath"
 			} ],
 			"scriptName": "nota_mestek_labs.followPath"
+		}, {
+			"children": [],
+			"id": "4vmCUQaZ4CtmhEPWNPI5zBw1pXzn9teo",
+			"nodeType": "wait",
+			"parameters": [ {
+				"name": "time",
+				"value": 10
+			} ]
 		} ],
 		"id": "wm3OcRkzBsxeyqmXnQUS49NPvVryGZhs",
 		"nodeType": "luaCondition",

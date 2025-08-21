@@ -27,36 +27,36 @@
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 1176,
-			"y": 504
+			"x": 1281,
+			"y": 489
 		},
 		"Aut2hSoDTxXdE6RBE2MPnMtbCrq5Y8cB": {
 			"height": 90,
 			"title": "luaCondition",
 			"width": 327,
-			"x": 491,
-			"y": 647
+			"x": 492,
+			"y": 706
 		},
 		"CAk5oGVtub2VQPJ00BlhRulz6MFh7JHj": {
 			"height": 90,
 			"title": "luaCondition",
 			"width": 286,
-			"x": 491,
-			"y": 543
+			"x": 493,
+			"y": 602
 		},
 		"E7LXvqG65pdqpAkQzn6HE4WqxChqGsif": {
 			"height": 72,
 			"title": "nota_mestek_labs.buyUnit",
 			"width": 249,
-			"x": 494,
-			"y": 746
+			"x": 496,
+			"y": 816
 		},
 		"Ek63L9w2bLvGTEvPXxCxdzvobyruECWR": {
 			"height": 72,
 			"title": "nota_mestek_labs.buyUnit",
 			"width": 249,
-			"x": 853,
-			"y": 544
+			"x": 862,
+			"y": 633
 		},
 		"HA0PxYhfMbJYEBArRQbLr2amjvvVcUlf": {
 			"height": 90,
@@ -65,12 +65,19 @@
 			"x": 439,
 			"y": -167
 		},
+		"MNghvJw0NJwdU5Cycox2JSSz55BxE7lk": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 1413,
+			"y": 649
+		},
 		"MlIaic6O9VqxuDVg70c0YCy2ovg0kFux": {
 			"height": 72,
 			"title": "nota_mestek_labs.buyUnit",
 			"width": 249,
-			"x": 709,
-			"y": 319
+			"x": 968,
+			"y": 305
 		},
 		"RokiclltNLfvB9cxUMxNT7Ve22D5qImb": {
 			"height": 72,
@@ -83,13 +90,20 @@
 			"height": 92,
 			"title": "nota_mestek_labs.upgradeLine",
 			"width": 281,
-			"x": 1146,
-			"y": 405
+			"x": 1246,
+			"y": 386
+		},
+		"bsUunLZ4pMtv1rxBjagQhrcQJb850FSY": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 527,
+			"x": 455,
+			"y": 522
 		},
 		"byvRAr8DR3glXakhUwTAdqlVU3PbJvj3": {
 			"height": 90,
 			"title": "luaCondition",
-			"width": 194,
+			"width": 270,
 			"x": 903,
 			"y": 429
 		},
@@ -99,6 +113,13 @@
 			"width": 131,
 			"x": 244,
 			"y": 2
+		},
+		"fTEnqx8X6WMaTC9oPHi7nrwrtGR2nhuO": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 270,
+			"x": 1046,
+			"y": 539
 		},
 		"g0imGIlC6NppA6kQD4psGThrsXpE4dyT": {
 			"height": 90,
@@ -121,6 +142,13 @@
 			"x": 449,
 			"y": 124
 		},
+		"qXu4KhV0VJWPOARz71ARoyLAOAO2jce7": {
+			"height": 92,
+			"title": "nota_mestek_labs.upgradeLine",
+			"width": 281,
+			"x": 1401,
+			"y": 557
+		},
 		"rIMsxcdBn29Le5EiE5rCl05aX27E1sru": {
 			"height": 72,
 			"title": "nota_mestek_labs.buyUnit",
@@ -131,16 +159,16 @@
 		"rYCg4h56MLF38bKPYCs3NFaXD6IEmG0N": {
 			"height": 90,
 			"title": "luaCondition",
-			"width": 208,
-			"x": 459,
+			"width": 439,
+			"x": 460,
 			"y": 316
 		},
 		"sEwQt5tYSuIa504r2DzfaZ85WhP4ePpn": {
 			"height": 72,
 			"title": "nota_mestek_labs.buyUnit",
 			"width": 249,
-			"x": 858,
-			"y": 653
+			"x": 865,
+			"y": 747
 		},
 		"w83qi8JJpWpaOhAriEH6h8al2DlBFtg6": {
 			"height": 72,
@@ -279,7 +307,7 @@
 			"nodeType": "luaCondition",
 			"parameters": [ {
 				"name": "expression",
-				"value": "#bb.myUnits.maverick < 3"
+				"value": "#bb.myUnits.maverick < 2"
 			}, {
 				"name": "repeat",
 				"value": "true"
@@ -302,7 +330,7 @@
 			"nodeType": "luaCondition",
 			"parameters": [ {
 				"name": "expression",
-				"value": "#bb.myUnits.fark < 2"
+				"value": "#bb.myUnits.fark < 2 and bb.midLane.buildingFrontline > 7000"
 			}, {
 				"name": "repeat",
 				"value": "true"
@@ -318,7 +346,7 @@
 						"value": "\"GoodMiddle\""
 					}, {
 						"name": "upgradeLevel",
-						"value": "1"
+						"value": "4"
 					}, {
 						"name": "scriptName",
 						"value": "nota_mestek_labs.upgradeLine"
@@ -334,7 +362,7 @@
 				"nodeType": "luaCondition",
 				"parameters": [ {
 					"name": "expression",
-					"value": "bb.metal >= 300"
+					"value": "bb.metal >= 4 * bb.info.upgrade.line"
 				}, {
 					"name": "repeat",
 					"value": "true"
@@ -344,7 +372,49 @@
 			"nodeType": "luaCondition",
 			"parameters": [ {
 				"name": "expression",
-				"value": "bb.info.battleLines.GoodMiddle.extraSpawnSize < 5"
+				"value": "bb.info.battleLines.GoodMiddle.extraSpawnSize < 4"
+			}, {
+				"name": "repeat",
+				"value": "true"
+			} ]
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "qXu4KhV0VJWPOARz71ARoyLAOAO2jce7",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "lineName",
+						"value": "\"GoodMiddle\""
+					}, {
+						"name": "upgradeLevel",
+						"value": "1"
+					}, {
+						"name": "scriptName",
+						"value": "nota_mestek_labs.upgradeLine"
+					} ],
+					"scriptName": "nota_mestek_labs.upgradeLine"
+				}, {
+					"children": [],
+					"id": "MNghvJw0NJwdU5Cycox2JSSz55BxE7lk",
+					"nodeType": "success",
+					"parameters": []
+				} ],
+				"id": "fTEnqx8X6WMaTC9oPHi7nrwrtGR2nhuO",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "bb.metal >= bb.info.upgrade.line"
+				}, {
+					"name": "repeat",
+					"value": "true"
+				} ]
+			} ],
+			"id": "bsUunLZ4pMtv1rxBjagQhrcQJb850FSY",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "bb.info.battleLines.GoodMiddle.extraSpawnSize < #bb.myUnits.maverick + 4"
 			}, {
 				"name": "repeat",
 				"value": "true"

@@ -30,10 +30,12 @@ return function(enemyBuildings, myUnits, width)
     local maxDist = (Game.mapSizeX + Game.mapSizeZ) * 0.707107
     local buildingFrontline = maxDist
     local closestEnemy = maxDist
+    local farthestBuilding = 0
     local fartherstAlly = 0
     local secondAlly = 0
     local thirdAlly = 0
 
+    -- enemy buildings
     for unitID, value in pairs(enemyBuildings) do
         local midLanePos = Sensors.ToMidLanePos(value.position)
 
@@ -89,17 +91,23 @@ return function(enemyBuildings, myUnits, width)
                     elseif midLanePos.travel > thirdAlly then
                         thirdAlly = midLanePos.travel
                     end
+
+                    local unitDef = UnitDefs[Spring.GetUnitDefID(unitID)]
+                    if unitDef and (unitDef.isImmobile or unitDef.isBuilding) then
+                        farthestBuilding = math.max(farthestBuilding, midLanePos.travel)
+                    end
                 end
             end
         end
     end
 
-    frontline = math.min(thirdAlly, closestEnemy)
+    frontline = math.min(math.max(thirdAlly, farthestBuilding), closestEnemy)
     if closestEnemy >= maxDist then
         closestEnemy = maxDist / 2
     end
 
 
+    -- my units
     myUnitData = {}
     for unitID, alive in pairs(myUnits) do
         if alive then
@@ -107,14 +115,10 @@ return function(enemyBuildings, myUnits, width)
             local position = Vec3(x, y, z)
             local midLanePos = Sensors.ToMidLanePos(position)
 
-            if math.abs(midLanePos.offset) < width then
-                myUnitData[unitID] = {
-                    position = position,
-                    midLanePos = midLanePos
-                }
-            else
-                myUnitData[unitID] = nil
-            end
+            myUnitData[unitID] = {
+                position = position,
+                midLanePos = midLanePos
+            }
         end
     end
 

@@ -209,7 +209,7 @@
 				"nodeType": "wait",
 				"parameters": [ {
 					"name": "time",
-					"value": 5
+					"value": 1
 				} ]
 			}, {
 				"children": [],
@@ -441,7 +441,7 @@
 					"value": "info.midLanePos.travel"
 				}, {
 					"name": "value",
-					"value": "info.midLanePos.travel - 200"
+					"value": "info.midLanePos.travel - 300"
 				}, {
 					"name": "scriptName",
 					"value": "store"
